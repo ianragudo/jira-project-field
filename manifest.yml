@@ -1,0 +1,14 @@
+modules:
+  jira:projectSettingsPage:
+    - key: my-project-fields-ian
+      function: main
+      title: My Project Fields
+  function:
+    - key: main
+      handler: index.run
+app:
+  id: ari:cloud:ecosystem::app/75f276ca-5ed1-450b-9615-bb6bae1c2f5d
+permissions:
+  scopes:
+    - read:jira-work
+    - manage:jira-project
